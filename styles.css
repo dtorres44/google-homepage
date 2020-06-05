@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    background-color: white;
+}
+
+li, a, button {
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 500;
+    font-size: small;
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+}
+
+.left_list {
+    cursor: pointer;
+    margin-right: auto;
+    list-style: none;
+}
+
+.left_list li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.left_list li a {
+    transition: all 0.3s ease 0s;
+}
+
+.left_list li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.nav {
+    order: 2;
+}
+
+.right_list {
+    list-style: none;
+    margin-left: auto;
+
+}
+
+.right_list li {
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.right_list li a {
+    transition: all 0.3s ease 0;
+}
+
+.right_list li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.nav_icon {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 5px;
+    margin: 0 10px 10px 10px;
+    height: 9px;
+    transition: 0s;
+}
+
+.nav_icon {
+    background-color: rgb;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+.cta {
+    order: 3;
+}
+
+button {
+    margin-left: 10px;
+    padding: 9px 15px; /* size of button, length-wise */
+    background-color: rgba(72, 133, 237, 1);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgba(72, 133, 237, 0.5);
+}
+
+section {
+    display: block;
+}
+
+.center_img {
+    height: 233px;
+}
+
+.main_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   padding-top: 109px;
+}
+
+.search_form {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 482px;
+    padding-bottom: 20px;
+
+}
+
+form {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.searchbar {
+
+    width: 100%;
+    position: relative;
+
+}
+
+.fas {
+    margin:15px 20px;
+    position: absolute;
+    z-index: 2;
+    color: #5F6368;
+
+}
+
+
+.search_form input {
+    padding: 14px 40px 14px 40px;
+    border-radius: 25px;
+    text-align: left;
+    text-decoration: none;
+    border-color: #dfe1e5;
+    border-style: solid;
+    border-width: 1px;
+   
+}
+
+.search_form input:hover {
+    box-shadow: 0 0px 10px 0px gray;
+}
+
+.main_buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.search_btn button {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: small;
+    font-weight: normal;
+}
+
+.lucky_btn button {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: small;
+    font-weight: normal;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(72, 133, 237, 1);
+    list-style: none;
+    text-decoration: none;
+}
+
+.left_foot {
+    display: block;
+    cursor: pointer;
+    margin-right: auto;
+    list-style: none;
+    background-color: red;
+}
+
+.left_foot li {
+    display: inline-block;
+}
+
+.right_foot li a{
+    list-style: none;
+    background-color: seagreen;
+}
+
+.right_foot {
+    cursor: pointer;
+    margin-left: auto;
+    list-style: none;
+}
+
+.right_foot li {
+    display: inline-block;
+}
